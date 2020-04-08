@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="Media" EntityType="Model1.Store.Media" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Proprietati" EntityType="Model1.Store.Proprietati" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Dinamice" EntityType="Model1.Store.Dinamice" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Persoane" EntityType="Model1.Store.Persoane" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="PhotoDynamic" Association="Model1.Store.PhotoDynamic">
+      <End Role="Photo" EntitySet="Media" />
+      <End Role="Dynamic" EntitySet="Dinamice" />
+    </AssociationSet>
+    <AssociationSet Name="PhotoPerson" Association="Model1.Store.PhotoPerson">
+      <End Role="Photo" EntitySet="Media" />
+      <End Role="Person" EntitySet="Persoane" />
+    </AssociationSet>
+    <AssociationSet Name="PropertiesDynamic" Association="Model1.Store.PropertiesDynamic">
+      <End Role="Proprietate" EntitySet="Proprietati" />
+      <End Role="Dynamic" EntitySet="Dinamice" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Media">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Path" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Location" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Event" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Scenery" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Proprietati">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Dinamice">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Data" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PhotoId" Type="int" Nullable="false" />
+    <Property Name="PropertiesId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Persoane">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PhotoId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="PhotoDynamic">
+    <End Role="Photo" Type="Model1.Store.Media" Multiplicity="1" />
+    <End Role="Dynamic" Type="Model1.Store.Dinamice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Photo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Dynamic">
+        <PropertyRef Name="PhotoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PhotoPerson">
+    <End Role="Photo" Type="Model1.Store.Media" Multiplicity="1" />
+    <End Role="Person" Type="Model1.Store.Persoane" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Photo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Person">
+        <PropertyRef Name="PhotoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PropertiesDynamic">
+    <End Role="Proprietate" Type="Model1.Store.Proprietati" Multiplicity="1" />
+    <End Role="Dynamic" Type="Model1.Store.Dinamice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proprietate">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Dynamic">
+        <PropertyRef Name="PropertiesId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

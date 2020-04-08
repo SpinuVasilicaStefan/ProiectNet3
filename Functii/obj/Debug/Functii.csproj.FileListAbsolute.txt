@@ -1,0 +1,14 @@
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\bin\Debug\Functii.dll.config
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\bin\Debug\Functii.dll
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\bin\Debug\Functii.pdb
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\bin\Debug\EntityFramework.dll
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\bin\Debug\Proiect.exe
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\bin\Debug\Proiect.pdb
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\bin\Debug\Proiect.exe.config
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\bin\Debug\EntityFramework.xml
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\obj\Debug\Functii.csprojAssemblyReference.cache
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\obj\Debug\Functii.csproj.CopyComplete
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\obj\Debug\Functii.dll
+C:\Users\MrSpV\Desktop\NET\ragnar\Proiect\Functii\obj\Debug\Functii.pdb

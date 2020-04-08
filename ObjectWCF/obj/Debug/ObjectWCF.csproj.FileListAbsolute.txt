@@ -1,0 +1,11 @@
+C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\ObjectWCF\bin\Debug\ObjectWCF.dll
+C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\ObjectWCF\bin\Debug\ObjectWCF.pdb
+C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\ObjectWCF\bin\Debug\Proiect.exe
+C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\ObjectWCF\bin\Debug\EntityFramework.dll
+C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\ObjectWCF\bin\Debug\Proiect.pdb
+C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\ObjectWCF\bin\Debug\Proiect.exe.config
+C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\ObjectWCF\bin\Debug\EntityFramework.xml
+C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\ObjectWCF\obj\Debug\ObjectWCF.csprojAssemblyReference.cache
+C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\ObjectWCF\obj\Debug\ObjectWCF.csproj.CopyComplete
+C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\ObjectWCF\obj\Debug\ObjectWCF.dll
+C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\ObjectWCF\obj\Debug\ObjectWCF.pdb
