@@ -90,8 +90,7 @@ namespace InterfataFinala
                     path = (string)listBox2.SelectedItem;
                     if (path.EndsWith(".mp4"))
                     {
-                        var form = new AfisarePoza(path);
-                        form.Show();
+                        
                     }
                     else
                     {

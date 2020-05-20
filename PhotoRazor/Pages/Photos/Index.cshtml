@@ -1,0 +1,38 @@
+﻿@page
+@model PhotoRazor.PhotosModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Photos[0].Path)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Photos)
+        {
+            <tr style="font-size:small">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Path)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Path">Edit</a> |
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@foreach (var item in Model.Photos)
+{
+    <img src="@Url.Content("https://www.c-sharpcorner.com/img/" + item.Path)" />
+}

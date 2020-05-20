@@ -67,12 +67,6 @@
     <Compile Include="AfisarePoza.Designer.cs">
       <DependentUpon>AfisarePoza.cs</DependentUpon>
     </Compile>
-    <Compile Include="AfisareVideo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AfisareVideo.Designer.cs">
-      <DependentUpon>AfisareVideo.cs</DependentUpon>
-    </Compile>
     <Compile Include="Cautare.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,9 +111,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AfisarePoza.resx">
       <DependentUpon>AfisarePoza.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AfisareVideo.resx">
-      <DependentUpon>AfisareVideo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cautare.resx">
       <DependentUpon>Cautare.cs</DependentUpon>

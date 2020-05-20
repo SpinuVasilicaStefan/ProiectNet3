@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectWCF", "ObjectWCF\Obje
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostWCF", "HostWCF\HostWCF.csproj", "{BDADBAEA-27D1-4CA7-94E6-B66068795AC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoRazor", "PhotoRazor\PhotoRazor.csproj", "{140A838A-AEE4-450E-B7CE-81DEE9BD676F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{BDADBAEA-27D1-4CA7-94E6-B66068795AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDADBAEA-27D1-4CA7-94E6-B66068795AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDADBAEA-27D1-4CA7-94E6-B66068795AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140A838A-AEE4-450E-B7CE-81DEE9BD676F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140A838A-AEE4-450E-B7CE-81DEE9BD676F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140A838A-AEE4-450E-B7CE-81DEE9BD676F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140A838A-AEE4-450E-B7CE-81DEE9BD676F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

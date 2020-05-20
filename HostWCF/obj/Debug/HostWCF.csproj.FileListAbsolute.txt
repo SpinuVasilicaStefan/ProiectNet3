@@ -14,3 +14,19 @@ C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\HostWCF\obj\Debug\HostWCF.exe
 C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\HostWCF\obj\Debug\HostWCF.pdb
 C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\HostWCF\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\MrSpV\Desktop\NET\Proj2\Proiect\HostWCF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\bin\Debug\HostWCF.exe.config
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\bin\Debug\HostWCF.exe
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\bin\Debug\HostWCF.pdb
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\bin\Debug\EntityFramework.dll
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\bin\Debug\ObjectWCF.dll
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\bin\Debug\Proiect.exe
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\bin\Debug\ObjectWCF.pdb
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\bin\Debug\EntityFramework.xml
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\bin\Debug\Proiect.pdb
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\bin\Debug\Proiect.exe.config
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\obj\Debug\HostWCF.exe
+C:\Users\MrSpV\Desktop\Proiect Final NET\Proiect\HostWCF\obj\Debug\HostWCF.pdb
